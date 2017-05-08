@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0A59DD01EC01CD20027E91E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A59DCF1EC01CD20027E91E /* AppDelegate.swift */; };
+		E0A59DD21EC01CD20027E91E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A59DD11EC01CD20027E91E /* ViewController.swift */; };
+		E0A59DD51EC01CD20027E91E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A59DD31EC01CD20027E91E /* Main.storyboard */; };
+		E0A59DD71EC01CD20027E91E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A59DD61EC01CD20027E91E /* Assets.xcassets */; };
+		E0A59DDA1EC01CD20027E91E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A59DD81EC01CD20027E91E /* LaunchScreen.storyboard */; };
+		E0A59DE51EC01CD20027E91E /* VaeAttentanceBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A59DE41EC01CD20027E91E /* VaeAttentanceBookTests.swift */; };
+		E0A59DF01EC01CD20027E91E /* VaeAttentanceBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A59DEF1EC01CD20027E91E /* VaeAttentanceBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0A59DE11EC01CD20027E91E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0A59DC41EC01CD20027E91E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0A59DCB1EC01CD20027E91E;
+			remoteInfo = VaeAttentanceBook;
+		};
+		E0A59DEC1EC01CD20027E91E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0A59DC41EC01CD20027E91E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0A59DCB1EC01CD20027E91E;
+			remoteInfo = VaeAttentanceBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0A59DCC1EC01CD20027E91E /* VaeAttentanceBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaeAttentanceBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A59DCF1EC01CD20027E91E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0A59DD11EC01CD20027E91E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0A59DD41EC01CD20027E91E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0A59DD61EC01CD20027E91E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0A59DD91EC01CD20027E91E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0A59DDB1EC01CD20027E91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A59DE01EC01CD20027E91E /* VaeAttentanceBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaeAttentanceBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A59DE41EC01CD20027E91E /* VaeAttentanceBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaeAttentanceBookTests.swift; sourceTree = "<group>"; };
+		E0A59DE61EC01CD20027E91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A59DEB1EC01CD20027E91E /* VaeAttentanceBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaeAttentanceBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A59DEF1EC01CD20027E91E /* VaeAttentanceBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaeAttentanceBookUITests.swift; sourceTree = "<group>"; };
+		E0A59DF11EC01CD20027E91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0A59DC91EC01CD20027E91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A59DDD1EC01CD20027E91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A59DE81EC01CD20027E91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0A59DC31EC01CD20027E91E = {
+			isa = PBXGroup;
+			children = (
+				E0A59DCE1EC01CD20027E91E /* VaeAttentanceBook */,
+				E0A59DE31EC01CD20027E91E /* VaeAttentanceBookTests */,
+				E0A59DEE1EC01CD20027E91E /* VaeAttentanceBookUITests */,
+				E0A59DCD1EC01CD20027E91E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0A59DCD1EC01CD20027E91E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0A59DCC1EC01CD20027E91E /* VaeAttentanceBook.app */,
+				E0A59DE01EC01CD20027E91E /* VaeAttentanceBookTests.xctest */,
+				E0A59DEB1EC01CD20027E91E /* VaeAttentanceBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0A59DCE1EC01CD20027E91E /* VaeAttentanceBook */ = {
+			isa = PBXGroup;
+			children = (
+				E0A59DCF1EC01CD20027E91E /* AppDelegate.swift */,
+				E0A59DD11EC01CD20027E91E /* ViewController.swift */,
+				E0A59DD31EC01CD20027E91E /* Main.storyboard */,
+				E0A59DD61EC01CD20027E91E /* Assets.xcassets */,
+				E0A59DD81EC01CD20027E91E /* LaunchScreen.storyboard */,
+				E0A59DDB1EC01CD20027E91E /* Info.plist */,
+			);
+			path = VaeAttentanceBook;
+			sourceTree = "<group>";
+		};
+		E0A59DE31EC01CD20027E91E /* VaeAttentanceBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0A59DE41EC01CD20027E91E /* VaeAttentanceBookTests.swift */,
+				E0A59DE61EC01CD20027E91E /* Info.plist */,
+			);
+			path = VaeAttentanceBookTests;
+			sourceTree = "<group>";
+		};
+		E0A59DEE1EC01CD20027E91E /* VaeAttentanceBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0A59DEF1EC01CD20027E91E /* VaeAttentanceBookUITests.swift */,
+				E0A59DF11EC01CD20027E91E /* Info.plist */,
+			);
+			path = VaeAttentanceBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0A59DCB1EC01CD20027E91E /* VaeAttentanceBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0A59DF41EC01CD20027E91E /* Build configuration list for PBXNativeTarget "VaeAttentanceBook" */;
+			buildPhases = (
+				E0A59DC81EC01CD20027E91E /* Sources */,
+				E0A59DC91EC01CD20027E91E /* Frameworks */,
+				E0A59DCA1EC01CD20027E91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VaeAttentanceBook;
+			productName = VaeAttentanceBook;
+			productReference = E0A59DCC1EC01CD20027E91E /* VaeAttentanceBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0A59DDF1EC01CD20027E91E /* VaeAttentanceBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0A59DF71EC01CD20027E91E /* Build configuration list for PBXNativeTarget "VaeAttentanceBookTests" */;
+			buildPhases = (
+				E0A59DDC1EC01CD20027E91E /* Sources */,
+				E0A59DDD1EC01CD20027E91E /* Frameworks */,
+				E0A59DDE1EC01CD20027E91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0A59DE21EC01CD20027E91E /* PBXTargetDependency */,
+			);
+			name = VaeAttentanceBookTests;
+			productName = VaeAttentanceBookTests;
+			productReference = E0A59DE01EC01CD20027E91E /* VaeAttentanceBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0A59DEA1EC01CD20027E91E /* VaeAttentanceBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0A59DFA1EC01CD20027E91E /* Build configuration list for PBXNativeTarget "VaeAttentanceBookUITests" */;
+			buildPhases = (
+				E0A59DE71EC01CD20027E91E /* Sources */,
+				E0A59DE81EC01CD20027E91E /* Frameworks */,
+				E0A59DE91EC01CD20027E91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0A59DED1EC01CD20027E91E /* PBXTargetDependency */,
+			);
+			name = VaeAttentanceBookUITests;
+			productName = VaeAttentanceBookUITests;
+			productReference = E0A59DEB1EC01CD20027E91E /* VaeAttentanceBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0A59DC41EC01CD20027E91E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "婉卿容若";
+				TargetAttributes = {
+					E0A59DCB1EC01CD20027E91E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UZZG6NM74T;
+						ProvisioningStyle = Automatic;
+					};
+					E0A59DDF1EC01CD20027E91E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UZZG6NM74T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0A59DCB1EC01CD20027E91E;
+					};
+					E0A59DEA1EC01CD20027E91E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UZZG6NM74T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0A59DCB1EC01CD20027E91E;
+					};
+				};
+			};
+			buildConfigurationList = E0A59DC71EC01CD20027E91E /* Build configuration list for PBXProject "VaeAttentanceBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0A59DC31EC01CD20027E91E;
+			productRefGroup = E0A59DCD1EC01CD20027E91E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0A59DCB1EC01CD20027E91E /* VaeAttentanceBook */,
+				E0A59DDF1EC01CD20027E91E /* VaeAttentanceBookTests */,
+				E0A59DEA1EC01CD20027E91E /* VaeAttentanceBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0A59DCA1EC01CD20027E91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A59DDA1EC01CD20027E91E /* LaunchScreen.storyboard in Resources */,
+				E0A59DD71EC01CD20027E91E /* Assets.xcassets in Resources */,
+				E0A59DD51EC01CD20027E91E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A59DDE1EC01CD20027E91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A59DE91EC01CD20027E91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0A59DC81EC01CD20027E91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A59DD21EC01CD20027E91E /* ViewController.swift in Sources */,
+				E0A59DD01EC01CD20027E91E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A59DDC1EC01CD20027E91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A59DE51EC01CD20027E91E /* VaeAttentanceBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A59DE71EC01CD20027E91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A59DF01EC01CD20027E91E /* VaeAttentanceBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0A59DE21EC01CD20027E91E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0A59DCB1EC01CD20027E91E /* VaeAttentanceBook */;
+			targetProxy = E0A59DE11EC01CD20027E91E /* PBXContainerItemProxy */;
+		};
+		E0A59DED1EC01CD20027E91E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0A59DCB1EC01CD20027E91E /* VaeAttentanceBook */;
+			targetProxy = E0A59DEC1EC01CD20027E91E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0A59DD31EC01CD20027E91E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0A59DD41EC01CD20027E91E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0A59DD81EC01CD20027E91E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0A59DD91EC01CD20027E91E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0A59DF21EC01CD20027E91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0A59DF31EC01CD20027E91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0A59DF51EC01CD20027E91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				INFOPLIST_FILE = VaeAttentanceBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roni.VaeAttentanceBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E0A59DF61EC01CD20027E91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				INFOPLIST_FILE = VaeAttentanceBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roni.VaeAttentanceBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E0A59DF81EC01CD20027E91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				INFOPLIST_FILE = VaeAttentanceBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roni.VaeAttentanceBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaeAttentanceBook.app/VaeAttentanceBook";
+			};
+			name = Debug;
+		};
+		E0A59DF91EC01CD20027E91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				INFOPLIST_FILE = VaeAttentanceBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roni.VaeAttentanceBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaeAttentanceBook.app/VaeAttentanceBook";
+			};
+			name = Release;
+		};
+		E0A59DFB1EC01CD20027E91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				INFOPLIST_FILE = VaeAttentanceBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roni.VaeAttentanceBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VaeAttentanceBook;
+			};
+			name = Debug;
+		};
+		E0A59DFC1EC01CD20027E91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				INFOPLIST_FILE = VaeAttentanceBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roni.VaeAttentanceBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VaeAttentanceBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0A59DC71EC01CD20027E91E /* Build configuration list for PBXProject "VaeAttentanceBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A59DF21EC01CD20027E91E /* Debug */,
+				E0A59DF31EC01CD20027E91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0A59DF41EC01CD20027E91E /* Build configuration list for PBXNativeTarget "VaeAttentanceBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A59DF51EC01CD20027E91E /* Debug */,
+				E0A59DF61EC01CD20027E91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0A59DF71EC01CD20027E91E /* Build configuration list for PBXNativeTarget "VaeAttentanceBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A59DF81EC01CD20027E91E /* Debug */,
+				E0A59DF91EC01CD20027E91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0A59DFA1EC01CD20027E91E /* Build configuration list for PBXNativeTarget "VaeAttentanceBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A59DFB1EC01CD20027E91E /* Debug */,
+				E0A59DFC1EC01CD20027E91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0A59DC41EC01CD20027E91E /* Project object */;
+}
