@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6745D998DD2D3F73EC528048 /* Pods_VaeAttentanceBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3CE88971FE5F9A093DCAF0 /* Pods_VaeAttentanceBook.framework */; };
+		6DBDFE6353A9B27188E7B891 /* Pods_VaeAttentanceBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A91824B71A1295E9BCB175F /* Pods_VaeAttentanceBookTests.framework */; };
+		791675C4275D5BF898A9CE9B /* Pods_VaeAttentanceBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E37BD84CA25235FC3446C4 /* Pods_VaeAttentanceBookUITests.framework */; };
 		E0A59DD01EC01CD20027E91E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A59DCF1EC01CD20027E91E /* AppDelegate.swift */; };
 		E0A59DD21EC01CD20027E91E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A59DD11EC01CD20027E91E /* ViewController.swift */; };
 		E0A59DD51EC01CD20027E91E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A59DD31EC01CD20027E91E /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AE945419767131AA81AE742 /* Pods-VaeAttentanceBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaeAttentanceBookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VaeAttentanceBookUITests/Pods-VaeAttentanceBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		40E37BD84CA25235FC3446C4 /* Pods_VaeAttentanceBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VaeAttentanceBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C2ADC866CE104E69AED92F /* Pods-VaeAttentanceBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaeAttentanceBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VaeAttentanceBookTests/Pods-VaeAttentanceBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		661485AA8045404CBFD4EA74 /* Pods-VaeAttentanceBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaeAttentanceBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-VaeAttentanceBook/Pods-VaeAttentanceBook.release.xcconfig"; sourceTree = "<group>"; };
+		6A91824B71A1295E9BCB175F /* Pods_VaeAttentanceBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VaeAttentanceBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E62870227F9D80C23397C5 /* Pods-VaeAttentanceBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaeAttentanceBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VaeAttentanceBookTests/Pods-VaeAttentanceBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A3CE88971FE5F9A093DCAF0 /* Pods_VaeAttentanceBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VaeAttentanceBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA73806360B439FC49432BE2 /* Pods-VaeAttentanceBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaeAttentanceBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VaeAttentanceBook/Pods-VaeAttentanceBook.debug.xcconfig"; sourceTree = "<group>"; };
 		E0A59DCC1EC01CD20027E91E /* VaeAttentanceBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaeAttentanceBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A59DCF1EC01CD20027E91E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0A59DD11EC01CD20027E91E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		E0A59DEB1EC01CD20027E91E /* VaeAttentanceBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaeAttentanceBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A59DEF1EC01CD20027E91E /* VaeAttentanceBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaeAttentanceBookUITests.swift; sourceTree = "<group>"; };
 		E0A59DF11EC01CD20027E91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F408F1E1E39B477205135584 /* Pods-VaeAttentanceBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaeAttentanceBookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VaeAttentanceBookUITests/Pods-VaeAttentanceBookUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6745D998DD2D3F73EC528048 /* Pods_VaeAttentanceBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DBDFE6353A9B27188E7B891 /* Pods_VaeAttentanceBookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791675C4275D5BF898A9CE9B /* Pods_VaeAttentanceBookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07F265F52ADD15E7D90E2EA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA73806360B439FC49432BE2 /* Pods-VaeAttentanceBook.debug.xcconfig */,
+				661485AA8045404CBFD4EA74 /* Pods-VaeAttentanceBook.release.xcconfig */,
+				78E62870227F9D80C23397C5 /* Pods-VaeAttentanceBookTests.debug.xcconfig */,
+				47C2ADC866CE104E69AED92F /* Pods-VaeAttentanceBookTests.release.xcconfig */,
+				0AE945419767131AA81AE742 /* Pods-VaeAttentanceBookUITests.debug.xcconfig */,
+				F408F1E1E39B477205135584 /* Pods-VaeAttentanceBookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D8262DD9E4A60A2DCC52D1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A3CE88971FE5F9A093DCAF0 /* Pods_VaeAttentanceBook.framework */,
+				6A91824B71A1295E9BCB175F /* Pods_VaeAttentanceBookTests.framework */,
+				40E37BD84CA25235FC3446C4 /* Pods_VaeAttentanceBookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E0A59DC31EC01CD20027E91E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				E0A59DE31EC01CD20027E91E /* VaeAttentanceBookTests */,
 				E0A59DEE1EC01CD20027E91E /* VaeAttentanceBookUITests */,
 				E0A59DCD1EC01CD20027E91E /* Products */,
+				07F265F52ADD15E7D90E2EA7 /* Pods */,
+				8D8262DD9E4A60A2DCC52D1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0A59DF41EC01CD20027E91E /* Build configuration list for PBXNativeTarget "VaeAttentanceBook" */;
 			buildPhases = (
+				5D683961F51B3F7B1E8FF95C /* [CP] Check Pods Manifest.lock */,
 				E0A59DC81EC01CD20027E91E /* Sources */,
 				E0A59DC91EC01CD20027E91E /* Frameworks */,
 				E0A59DCA1EC01CD20027E91E /* Resources */,
+				2F427A96E47AAEB7CE985B46 /* [CP] Embed Pods Frameworks */,
+				A248ED384FE604EA47FCEB3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0A59DF71EC01CD20027E91E /* Build configuration list for PBXNativeTarget "VaeAttentanceBookTests" */;
 			buildPhases = (
+				E9B87EB08BC01BA3960B0DC0 /* [CP] Check Pods Manifest.lock */,
 				E0A59DDC1EC01CD20027E91E /* Sources */,
 				E0A59DDD1EC01CD20027E91E /* Frameworks */,
 				E0A59DDE1EC01CD20027E91E /* Resources */,
+				C95312DBB06D5FCC1332665D /* [CP] Embed Pods Frameworks */,
+				A71AC82A6133A9DFE0868673 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0A59DFA1EC01CD20027E91E /* Build configuration list for PBXNativeTarget "VaeAttentanceBookUITests" */;
 			buildPhases = (
+				45B02612BEB508230BAD7FFF /* [CP] Check Pods Manifest.lock */,
 				E0A59DE71EC01CD20027E91E /* Sources */,
 				E0A59DE81EC01CD20027E91E /* Frameworks */,
 				E0A59DE91EC01CD20027E91E /* Resources */,
+				A0F6369DF222901BB46C5B65 /* [CP] Embed Pods Frameworks */,
+				9EE867DEFDF2BFC508A9699E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F427A96E47AAEB7CE985B46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VaeAttentanceBook/Pods-VaeAttentanceBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45B02612BEB508230BAD7FFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D683961F51B3F7B1E8FF95C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EE867DEFDF2BFC508A9699E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VaeAttentanceBookUITests/Pods-VaeAttentanceBookUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F6369DF222901BB46C5B65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VaeAttentanceBookUITests/Pods-VaeAttentanceBookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A248ED384FE604EA47FCEB3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VaeAttentanceBook/Pods-VaeAttentanceBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A71AC82A6133A9DFE0868673 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VaeAttentanceBookTests/Pods-VaeAttentanceBookTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C95312DBB06D5FCC1332665D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VaeAttentanceBookTests/Pods-VaeAttentanceBookTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B87EB08BC01BA3960B0DC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0A59DC81EC01CD20027E91E /* Sources */ = {
@@ -413,6 +600,7 @@
 		};
 		E0A59DF51EC01CD20027E91E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA73806360B439FC49432BE2 /* Pods-VaeAttentanceBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UZZG6NM74T;
@@ -426,6 +614,7 @@
 		};
 		E0A59DF61EC01CD20027E91E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661485AA8045404CBFD4EA74 /* Pods-VaeAttentanceBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UZZG6NM74T;
@@ -439,6 +628,7 @@
 		};
 		E0A59DF81EC01CD20027E91E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E62870227F9D80C23397C5 /* Pods-VaeAttentanceBookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +644,7 @@
 		};
 		E0A59DF91EC01CD20027E91E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C2ADC866CE104E69AED92F /* Pods-VaeAttentanceBookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +660,7 @@
 		};
 		E0A59DFB1EC01CD20027E91E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE945419767131AA81AE742 /* Pods-VaeAttentanceBookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = UZZG6NM74T;
@@ -483,6 +675,7 @@
 		};
 		E0A59DFC1EC01CD20027E91E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F408F1E1E39B477205135584 /* Pods-VaeAttentanceBookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = UZZG6NM74T;

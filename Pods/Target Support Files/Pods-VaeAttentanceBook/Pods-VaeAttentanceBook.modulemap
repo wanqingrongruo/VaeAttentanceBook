@@ -1,0 +1,6 @@
+framework module Pods_VaeAttentanceBook {
+  umbrella header "Pods-VaeAttentanceBook-umbrella.h"
+
+  export *
+  module * { export * }
+}

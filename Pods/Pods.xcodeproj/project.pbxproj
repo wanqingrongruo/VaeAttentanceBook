@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10297C895146F494845106D2492E3FE0 /* Pods-VaeAttentanceBookTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21604E406EDF3EBDEB88E39EC7660D12 /* Pods-VaeAttentanceBookTests-dummy.m */; };
+		478AF77E08C40E44D2F5BAEFFA9C9E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4E0F401A101FE1991FA576772CB4E300 /* Pods-VaeAttentanceBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0426C2ECA3B604951A2F43B73FBC07 /* Pods-VaeAttentanceBook-dummy.m */; };
+		549B0FF684F69CFA8F405F9197126ED0 /* Pods-VaeAttentanceBookUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF43C9C0D1627A94790C04411FAC223 /* Pods-VaeAttentanceBookUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFBF7395B71AA4CE0D267E77F4C763A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C89E0A6382151E2DE5A5C4184F9CA497 /* Pods-VaeAttentanceBookUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B115457A9C5E6B0CC2C0B6F30E14C28D /* Pods-VaeAttentanceBookUITests-dummy.m */; };
+		D3D474350AAB38FB741F8CE800163FDE /* Pods-VaeAttentanceBookTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB30F01EAADCDD28EC2CBD73802EB612 /* Pods-VaeAttentanceBookTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDBCD7A2AD962ADAD27C67EF5A750010 /* Pods-VaeAttentanceBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9374820832305A7490D59AB044029D4 /* Pods-VaeAttentanceBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAC6394C90D501E40ED7BC5BEE3F5A0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0019A1500106432C50F3BA4DAE40AF6E /* Pods-VaeAttentanceBookTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VaeAttentanceBookTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03DC4D5B7825338B9C96683FCA88A1E8 /* Pods-VaeAttentanceBookUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VaeAttentanceBookUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0B7DE70C2F4394CE3AC26554543736BB /* Pods-VaeAttentanceBookUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VaeAttentanceBookUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1979EFDC5247D7E4021045DC425119FD /* Pods-VaeAttentanceBookTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VaeAttentanceBookTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1ABADC322FA0D5DD87A5D80A18EB895E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21604E406EDF3EBDEB88E39EC7660D12 /* Pods-VaeAttentanceBookTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VaeAttentanceBookTests-dummy.m"; sourceTree = "<group>"; };
+		2778E34DB59A682E8A9EBC0B8E57FDDE /* Pods-VaeAttentanceBook-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VaeAttentanceBook-frameworks.sh"; sourceTree = "<group>"; };
+		296844EA7A3769DF4C81ECD3B9AF3E39 /* Pods_VaeAttentanceBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VaeAttentanceBookUITests.framework; path = "Pods-VaeAttentanceBookUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0426C2ECA3B604951A2F43B73FBC07 /* Pods-VaeAttentanceBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VaeAttentanceBook-dummy.m"; sourceTree = "<group>"; };
+		3B127B3F2D76A22E64DED00239A10998 /* Pods-VaeAttentanceBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VaeAttentanceBook.modulemap"; sourceTree = "<group>"; };
+		3E03CDC4665D3F6E8C35295C5051F34B /* Pods_VaeAttentanceBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VaeAttentanceBook.framework; path = "Pods-VaeAttentanceBook.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC931C120B33747793EBB4D1ED49FEE /* Pods-VaeAttentanceBookTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VaeAttentanceBookTests.modulemap"; sourceTree = "<group>"; };
+		5F437F305EE0B845542BB4FAB581A1E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF43C9C0D1627A94790C04411FAC223 /* Pods-VaeAttentanceBookUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VaeAttentanceBookUITests-umbrella.h"; sourceTree = "<group>"; };
+		84B652F8DD35FAE7B0CDD14F208D085C /* Pods-VaeAttentanceBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VaeAttentanceBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BEB31ABA9DB769C4935D532A3FA843B /* Pods-VaeAttentanceBookTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VaeAttentanceBookTests-resources.sh"; sourceTree = "<group>"; };
+		A21B906DF435C121A9E7539680011E7A /* Pods-VaeAttentanceBookTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VaeAttentanceBookTests-frameworks.sh"; sourceTree = "<group>"; };
+		A279B9546227EC0A5057625C74842122 /* Pods-VaeAttentanceBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VaeAttentanceBook.release.xcconfig"; sourceTree = "<group>"; };
+		A6ED5059CC7E6D8604B15ACDB2D582F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B115457A9C5E6B0CC2C0B6F30E14C28D /* Pods-VaeAttentanceBookUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VaeAttentanceBookUITests-dummy.m"; sourceTree = "<group>"; };
+		B3807C531F227464028BC64B85FB0326 /* Pods-VaeAttentanceBookUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VaeAttentanceBookUITests.modulemap"; sourceTree = "<group>"; };
+		BB30F01EAADCDD28EC2CBD73802EB612 /* Pods-VaeAttentanceBookTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VaeAttentanceBookTests-umbrella.h"; sourceTree = "<group>"; };
+		C9374820832305A7490D59AB044029D4 /* Pods-VaeAttentanceBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VaeAttentanceBook-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE29AE62516E6CD84AB8DFEB4A082227 /* Pods-VaeAttentanceBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VaeAttentanceBook.debug.xcconfig"; sourceTree = "<group>"; };
+		CE8A3D5A1B4A2087E9ACF124784E6775 /* Pods-VaeAttentanceBook-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VaeAttentanceBook-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D31624DF998CEEFA4E42058C849C10D5 /* Pods-VaeAttentanceBook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VaeAttentanceBook-acknowledgements.plist"; sourceTree = "<group>"; };
+		D364DD3D64779B592992DCAE92A8FF6A /* Pods_VaeAttentanceBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VaeAttentanceBookTests.framework; path = "Pods-VaeAttentanceBookTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F312509ADA7378B5A9EF27F09CAB97 /* Pods-VaeAttentanceBookUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VaeAttentanceBookUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0D7645FDECF562F98D1F30AB62AC341 /* Pods-VaeAttentanceBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VaeAttentanceBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E26374C4CDF650CB9B99F10FC39FB990 /* Pods-VaeAttentanceBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VaeAttentanceBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		E2D0AAC898156825A114EC9C14E64648 /* Pods-VaeAttentanceBookUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VaeAttentanceBookUITests-resources.sh"; sourceTree = "<group>"; };
+		E385601D94186067DB3394872F01DE26 /* Pods-VaeAttentanceBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VaeAttentanceBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECB81BA859CD7C7F710BF37C359ACD1C /* Pods-VaeAttentanceBook-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VaeAttentanceBook-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C41D463E981A11C604CADE43EE77756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478AF77E08C40E44D2F5BAEFFA9C9E8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EA79443E6DF060D476EEC4B3EC886B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBF7395B71AA4CE0D267E77F4C763A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EBA62874185D69B7D15D8F37D13ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC6394C90D501E40ED7BC5BEE3F5A0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F7C47055B94F7FEFE99F62E127C568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E03CDC4665D3F6E8C35295C5051F34B /* Pods_VaeAttentanceBook.framework */,
+				D364DD3D64779B592992DCAE92A8FF6A /* Pods_VaeAttentanceBookTests.framework */,
+				296844EA7A3769DF4C81ECD3B9AF3E39 /* Pods_VaeAttentanceBookUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		405BC1B85A3B410F52008087B00910E2 /* Pods-VaeAttentanceBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6ED5059CC7E6D8604B15ACDB2D582F1 /* Info.plist */,
+				B3807C531F227464028BC64B85FB0326 /* Pods-VaeAttentanceBookUITests.modulemap */,
+				0B7DE70C2F4394CE3AC26554543736BB /* Pods-VaeAttentanceBookUITests-acknowledgements.markdown */,
+				D7F312509ADA7378B5A9EF27F09CAB97 /* Pods-VaeAttentanceBookUITests-acknowledgements.plist */,
+				B115457A9C5E6B0CC2C0B6F30E14C28D /* Pods-VaeAttentanceBookUITests-dummy.m */,
+				03DC4D5B7825338B9C96683FCA88A1E8 /* Pods-VaeAttentanceBookUITests-frameworks.sh */,
+				E2D0AAC898156825A114EC9C14E64648 /* Pods-VaeAttentanceBookUITests-resources.sh */,
+				5FF43C9C0D1627A94790C04411FAC223 /* Pods-VaeAttentanceBookUITests-umbrella.h */,
+				E0D7645FDECF562F98D1F30AB62AC341 /* Pods-VaeAttentanceBookUITests.debug.xcconfig */,
+				84B652F8DD35FAE7B0CDD14F208D085C /* Pods-VaeAttentanceBookUITests.release.xcconfig */,
+			);
+			name = "Pods-VaeAttentanceBookUITests";
+			path = "Target Support Files/Pods-VaeAttentanceBookUITests";
+			sourceTree = "<group>";
+		};
+		6409002A2CF62050F90C3F442DCF2AF1 /* Pods-VaeAttentanceBook */ = {
+			isa = PBXGroup;
+			children = (
+				1ABADC322FA0D5DD87A5D80A18EB895E /* Info.plist */,
+				3B127B3F2D76A22E64DED00239A10998 /* Pods-VaeAttentanceBook.modulemap */,
+				CE8A3D5A1B4A2087E9ACF124784E6775 /* Pods-VaeAttentanceBook-acknowledgements.markdown */,
+				D31624DF998CEEFA4E42058C849C10D5 /* Pods-VaeAttentanceBook-acknowledgements.plist */,
+				2D0426C2ECA3B604951A2F43B73FBC07 /* Pods-VaeAttentanceBook-dummy.m */,
+				2778E34DB59A682E8A9EBC0B8E57FDDE /* Pods-VaeAttentanceBook-frameworks.sh */,
+				ECB81BA859CD7C7F710BF37C359ACD1C /* Pods-VaeAttentanceBook-resources.sh */,
+				C9374820832305A7490D59AB044029D4 /* Pods-VaeAttentanceBook-umbrella.h */,
+				CE29AE62516E6CD84AB8DFEB4A082227 /* Pods-VaeAttentanceBook.debug.xcconfig */,
+				A279B9546227EC0A5057625C74842122 /* Pods-VaeAttentanceBook.release.xcconfig */,
+			);
+			name = "Pods-VaeAttentanceBook";
+			path = "Target Support Files/Pods-VaeAttentanceBook";
+			sourceTree = "<group>";
+		};
+		70F1E3BF230531D64F315515305A998B /* Pods-VaeAttentanceBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F437F305EE0B845542BB4FAB581A1E7 /* Info.plist */,
+				5CC931C120B33747793EBB4D1ED49FEE /* Pods-VaeAttentanceBookTests.modulemap */,
+				0019A1500106432C50F3BA4DAE40AF6E /* Pods-VaeAttentanceBookTests-acknowledgements.markdown */,
+				1979EFDC5247D7E4021045DC425119FD /* Pods-VaeAttentanceBookTests-acknowledgements.plist */,
+				21604E406EDF3EBDEB88E39EC7660D12 /* Pods-VaeAttentanceBookTests-dummy.m */,
+				A21B906DF435C121A9E7539680011E7A /* Pods-VaeAttentanceBookTests-frameworks.sh */,
+				9BEB31ABA9DB769C4935D532A3FA843B /* Pods-VaeAttentanceBookTests-resources.sh */,
+				BB30F01EAADCDD28EC2CBD73802EB612 /* Pods-VaeAttentanceBookTests-umbrella.h */,
+				E385601D94186067DB3394872F01DE26 /* Pods-VaeAttentanceBookTests.debug.xcconfig */,
+				E26374C4CDF650CB9B99F10FC39FB990 /* Pods-VaeAttentanceBookTests.release.xcconfig */,
+			);
+			name = "Pods-VaeAttentanceBookTests";
+			path = "Target Support Files/Pods-VaeAttentanceBookTests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				01F7C47055B94F7FEFE99F62E127C568 /* Products */,
+				9EA71D6A2DA7DC13DBB4D55693518103 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9EA71D6A2DA7DC13DBB4D55693518103 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6409002A2CF62050F90C3F442DCF2AF1 /* Pods-VaeAttentanceBook */,
+				70F1E3BF230531D64F315515305A998B /* Pods-VaeAttentanceBookTests */,
+				405BC1B85A3B410F52008087B00910E2 /* Pods-VaeAttentanceBookUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22A8417C50B1E61B59204603B885EE4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549B0FF684F69CFA8F405F9197126ED0 /* Pods-VaeAttentanceBookUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6E8F291A60DF7C7899333673FF9A43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBCD7A2AD962ADAD27C67EF5A750010 /* Pods-VaeAttentanceBook-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD7BCA2FA62C321EF1E6E454E684AB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D474350AAB38FB741F8CE800163FDE /* Pods-VaeAttentanceBookTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		035743D8710CDB645646DF473AE1CC2E /* Pods-VaeAttentanceBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EFBD0847314810A3E24215F32E01C5 /* Build configuration list for PBXNativeTarget "Pods-VaeAttentanceBook" */;
+			buildPhases = (
+				A35A2B064BD1703FA7D21EBECB14908A /* Sources */,
+				A6EBA62874185D69B7D15D8F37D13ADA /* Frameworks */,
+				2D6E8F291A60DF7C7899333673FF9A43 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VaeAttentanceBook";
+			productName = "Pods-VaeAttentanceBook";
+			productReference = 3E03CDC4665D3F6E8C35295C5051F34B /* Pods_VaeAttentanceBook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1B7E67069F06DAE897441C9B4034C824 /* Pods-VaeAttentanceBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8C0D7177DA504AD5E64B1625F1794BF /* Build configuration list for PBXNativeTarget "Pods-VaeAttentanceBookUITests" */;
+			buildPhases = (
+				D0ACC123DB34D57156F0DC070F8F2B54 /* Sources */,
+				8EA79443E6DF060D476EEC4B3EC886B4 /* Frameworks */,
+				22A8417C50B1E61B59204603B885EE4E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VaeAttentanceBookUITests";
+			productName = "Pods-VaeAttentanceBookUITests";
+			productReference = 296844EA7A3769DF4C81ECD3B9AF3E39 /* Pods_VaeAttentanceBookUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		888DF7A32C676B0B6AF5620D06CDB926 /* Pods-VaeAttentanceBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B3D0C6F8DC8E96B22580A0F255E424 /* Build configuration list for PBXNativeTarget "Pods-VaeAttentanceBookTests" */;
+			buildPhases = (
+				5C2BC5D79FABC3378D7DD62D7A0960F9 /* Sources */,
+				1C41D463E981A11C604CADE43EE77756 /* Frameworks */,
+				CDD7BCA2FA62C321EF1E6E454E684AB4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VaeAttentanceBookTests";
+			productName = "Pods-VaeAttentanceBookTests";
+			productReference = D364DD3D64779B592992DCAE92A8FF6A /* Pods_VaeAttentanceBookTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 01F7C47055B94F7FEFE99F62E127C568 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				035743D8710CDB645646DF473AE1CC2E /* Pods-VaeAttentanceBook */,
+				888DF7A32C676B0B6AF5620D06CDB926 /* Pods-VaeAttentanceBookTests */,
+				1B7E67069F06DAE897441C9B4034C824 /* Pods-VaeAttentanceBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C2BC5D79FABC3378D7DD62D7A0960F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10297C895146F494845106D2492E3FE0 /* Pods-VaeAttentanceBookTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35A2B064BD1703FA7D21EBECB14908A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0F401A101FE1991FA576772CB4E300 /* Pods-VaeAttentanceBook-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0ACC123DB34D57156F0DC070F8F2B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89E0A6382151E2DE5A5C4184F9CA497 /* Pods-VaeAttentanceBookUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F46A803C0D53F3A423B472B8C74FFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B652F8DD35FAE7B0CDD14F208D085C /* Pods-VaeAttentanceBookUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VaeAttentanceBookUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VaeAttentanceBookUITests/Pods-VaeAttentanceBookUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VaeAttentanceBookUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42366A534EC641B67CFE83BC4B18EDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE29AE62516E6CD84AB8DFEB4A082227 /* Pods-VaeAttentanceBook.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VaeAttentanceBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VaeAttentanceBook/Pods-VaeAttentanceBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VaeAttentanceBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C47F0F65CA266D1236B95FD50F98A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E385601D94186067DB3394872F01DE26 /* Pods-VaeAttentanceBookTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VaeAttentanceBookTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VaeAttentanceBookTests/Pods-VaeAttentanceBookTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VaeAttentanceBookTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE477A42D7D074CEF8B2E3344E5FD7B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E26374C4CDF650CB9B99F10FC39FB990 /* Pods-VaeAttentanceBookTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VaeAttentanceBookTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VaeAttentanceBookTests/Pods-VaeAttentanceBookTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VaeAttentanceBookTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C6C8527C41F638709E88BCAD133ED8B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A279B9546227EC0A5057625C74842122 /* Pods-VaeAttentanceBook.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VaeAttentanceBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VaeAttentanceBook/Pods-VaeAttentanceBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VaeAttentanceBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDA27A9C5E8DF289B839109D0A3ABB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D7645FDECF562F98D1F30AB62AC341 /* Pods-VaeAttentanceBookUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VaeAttentanceBookUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VaeAttentanceBookUITests/Pods-VaeAttentanceBookUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VaeAttentanceBookUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3EFBD0847314810A3E24215F32E01C5 /* Build configuration list for PBXNativeTarget "Pods-VaeAttentanceBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42366A534EC641B67CFE83BC4B18EDE2 /* Debug */,
+				C6C8527C41F638709E88BCAD133ED8B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8C0D7177DA504AD5E64B1625F1794BF /* Build configuration list for PBXNativeTarget "Pods-VaeAttentanceBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA27A9C5E8DF289B839109D0A3ABB94 /* Debug */,
+				3F46A803C0D53F3A423B472B8C74FFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B3D0C6F8DC8E96B22580A0F255E424 /* Build configuration list for PBXNativeTarget "Pods-VaeAttentanceBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C47F0F65CA266D1236B95FD50F98A17 /* Debug */,
+				AE477A42D7D074CEF8B2E3344E5FD7B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
